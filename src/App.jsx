@@ -1,6 +1,6 @@
 import MapScreen from './Mapscreens';
-import CreateSessionButton from './component/FloatingButton';
 import BottomNav from './component/bottomNav';
+
 export default function App() {
   return (
     <div style={{
@@ -9,7 +9,6 @@ export default function App() {
     }}>
       <MapScreen />
       <BottomNav />
-      <CreateSessionButton onPress={() => alert('Select a activity: Running, cycling?')} />
     </div>
   );
 }
